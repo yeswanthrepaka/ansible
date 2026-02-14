@@ -4,7 +4,4 @@
   - name: task-1
     ansible.builtin.debug:
      msg: "Hello world"
-
-  - name: task-2
-    ansible.builtin.debug:
      msg: "World hello"
