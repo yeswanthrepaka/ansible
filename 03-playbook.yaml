@@ -3,5 +3,6 @@
   tasks:
   - name: task-1
     ansible.builtin.debug:
-     msg: "Hello world"
-     msg: "World hello"
+     msg: 
+     - "Hello world"
+       "World hello"
