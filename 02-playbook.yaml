@@ -1,0 +1,6 @@
+- name: Sample file
+  hosts: local
+  tasks:
+  - name: hello world
+    ansible.buildin.debug:
+     msg: "Hello world"
