@@ -5,6 +5,7 @@
    course: ansible
   tasks:
   - name: printing variables
-    course: ansible-new
+    vars:
+     course: ansible-new
     ansible.builtin.debug:
      msg: "Course name is {{ course }}"
