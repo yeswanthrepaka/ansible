@@ -5,4 +5,4 @@
     ansible.builtin.debug:
      msg: 
      - "Hello world"
-       "World hello"
+     - "World hello"
