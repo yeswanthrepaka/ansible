@@ -1,0 +1,10 @@
+- name: conditions in yaml
+  hosts: local
+  connection: local
+  vars:
+    is_live: false
+  tasks:
+  - name: checking true or false
+    ansible.builtin.debug:
+     msg: "connection is live"
+     when is_live
