@@ -5,6 +5,6 @@
   - name: loops
     ansible.builtin.debug:
      msg: "{{ item }}"
-  - loops
-      "mysql"
-      "nginx"
+    loop:
+    - Ramesh
+    - Suresh
