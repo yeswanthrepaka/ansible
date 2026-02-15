@@ -1,0 +1,10 @@
+- name: testing loops in playbook
+  hosts: local
+  connection: local
+  tasks:
+  - name: loops
+    ansible.builtin.debug:
+     msg: "{{ item }}"
+  - loops
+      "mysql"
+      "nginx"
