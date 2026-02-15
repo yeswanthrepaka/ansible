@@ -1,6 +1,7 @@
 - name: testing loops in playbook
   hosts: local
   connection: local
+  become: yes
   tasks:
   - name: loops
     ansible.builtin.package:
