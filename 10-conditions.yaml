@@ -7,4 +7,4 @@
   - name: checking true or false
     ansible.builtin.debug:
      msg: "connection is live"
-     when is_live
+    when is_live
